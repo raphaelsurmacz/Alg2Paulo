@@ -115,7 +115,7 @@ int particionaVetor(int *vetor, size_t idxIni, size_t tam, uint64_t *quickComp) 
 			idxAux++;
 		}
 
-		//*quickComp += 1;
+		*quickComp += 1;
 	}
 		
 	trocar(vetor, idxAux, tam);

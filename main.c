@@ -8,7 +8,7 @@ int main() {
     char nome[MAX_CHAR];
     int numComp;
 
-    int tamVetor = 1000000;
+    int tamVetor = 100000;
     int* vetor = (int*)malloc(tamVetor * sizeof(int));
     if (vetor == NULL) {
         printf("Falha fatal. Impossível alocar memoria.");
